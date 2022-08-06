@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="saturn.png">
+<title>Ceejay's Profile (Home)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #7e5eb9;
+  color: white;
+  position: relative;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(17, 167, 142);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nbar {
+  overflow: hidden;
+  background-color: rgb(36, 82, 206);
+  position: relative;
+  top: 0;
+  padding: 0px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }}
+.center
+{
+  text-align: center;
+  border: 10px #7e5eb9;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height:max-content;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #ddd;
+}
+
+.thumbnail { 
+top:-50px; 
+left:-35px; 
+display:block; 
+z-index:999; 
+cursor: pointer;  
+} 
+
+.thumbnail:hover { 
+transform: scale(1.3); 
+
+}
+
+.img1 { 
+border: 1px solid rgb(189, 181, 181);
+}
+
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>Ceejay's Profile</h1>
+        <p style="text-decoration: underline">A guide towards <i>knowing</i> me.</p>
+        <p style="position: absolute; right: 80px; top: 90px;">
+          <script> document.write(new Date().toLocaleDateString()); </script>
+          </p>
+      </div>
+<div class="navbar">
+  <a href="https://app.powerbi.com/groups/951d9c6c-6891-42ad-bba6-c68eb7a92873/reports/ad62c947-8887-4050-9f00-646d776ccd29/ReportSection?bookmarkGuid=Bookmark34591342de65456ec8a2" target="_blank" title="My KPI">My KPI</a>
+  <a href="Immersion2.html" title="My Capabilities">My Capabilities</a>
+  <a href="index.html" class="active" title="About Me">About Me</a>
+</div>
+<div class="row">
+    <div class="side">
+    <h2>My Photo</h2>
+    <img src="Ceejay.jpg" height="230px" width="300px" class="thumbnail" title="Ceejay">
+<h3>Some facts about me</h3>
+<li>Born on February 26, 1998 (24 years old)</li>
+<li>Lives in Dinalupihan, Bataan</li>
+<li>I like cats <img src="cat.jpg" height="15px"> a lot, and dogs<img src="dog.gif" height="15px"></li>
+<li>I like reading <img src="book.gif" height="15px"> </li>
+<li>I like walking in rice fields <img src="rice.jpg" height="15px"> </li>
+<li>Noob in ML <img src="ML.gif" height="15px"> </li>
+</div>
+<div class="main">
+  <div class="center">
+  <div class="nbar">
+  <h2 style="color:white;">Educational Background</h2>
+</div>
+<br><br><br>
+  <img src="PUP.png" height="150px" width="150px" title="Polytechnic University of the Philippines">
+  <p>BS in Electronics and Communications Engineering (BSECE), Polytechnic University of the Philippines, Batch 2020</p>
+  </div>
+  <div class="center">
+    <img src="Luakan.jpg" height="130px" width="150px" title="Luakan National High School">
+    <p>Luakan National High School, Batch 2014</p>
+    </div>
+    <br><br><br><br>
+<div class="center">
+  <div class="nbar">
+    <h2 style="color:white;">Work Experience</h2></div>
+    <br>
+   
+      <img src="Emerson.png" height="130px" width="150px" class="img1" title="Emerson">
+      <p><img src="fw.gif" height="15px"><strong>    First Work!</strong><img src="fw.gif" height="15px"></p>
+      <p>Got my first year anniversary on January 4, 2021. 
+      <br>As a scholar, I am required to render the same amount of years I enjoyed the scholarship (2 years, to be exact)</p>
+</div>
+<br><br><br><br>
+<div class="center">
+  <div class="nbar"><h2 style="color:white;">Hobbies</h2></div>
+  <br><br>
+<div class="column">
+  <img src="Bleach.jpg" alt="Anime" style="width:100%; height: 200px" title="Bleach">
+  <p>Anime</p>
+</div>
+<div class="column">
+  <img src="music.jpg" alt="Music" style="width:100%; height: 200px" title="Music">
+  <p>Music</p>
+</div>
+<div class="column">
+  <img src="nature.jpg" alt="Nature" style="width:100%; height: 200px" title="Nature">
+  <p>Nature</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</div>
+</div>
+<div class="footer">
+  <h2>
+    <a href="https://www.emerson.com/en-us/global" target="_blank">
+      <img src="Emerson.png" height="130px" width="150px" target="_blank" title="Emerson">
+      </a>
+</h2>
+  <p>For inquiries, contact <u>Ceejay.lapuz@Emerson.com</u></p>
+</div>
+</body>
+</html>
